@@ -91,16 +91,10 @@
 		8D44664D1F2706FC00158884 /* TASK 3.8 */ = {
 			isa = PBXGroup;
 			children = (
+				8D4466B81F27111C00158884 /* Storyboards */,
 				8D4466AB1F270C5900158884 /* Support */,
 				8D4466671F27078B00158884 /* Controllers */,
-				8D44664E1F2706FC00158884 /* AppDelegate.swift */,
-				8D4466581F2706FC00158884 /* Assets.xcassets */,
 				8D4466661F27077A00158884 /* Storyboard */,
-				8D44665A1F2706FC00158884 /* LaunchScreen.storyboard */,
-				8D4466B51F270CFF00158884 /* Main.storyboard */,
-				8D44665D1F2706FC00158884 /* Info.plist */,
-				8D4466551F2706FC00158884 /* TASK_3_8.xcdatamodeld */,
-				8D4466981F270BC300158884 /* fmdb */,
 			);
 			path = "TASK 3.8";
 			sourceTree = "<group>";
@@ -150,6 +144,11 @@
 				8D4466AC1F270C7100158884 /* SaveDataModel.swift */,
 				8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */,
 				8D4466AE1F270C7A00158884 /* ChoreCategory.swift */,
+				8D4466581F2706FC00158884 /* Assets.xcassets */,
+				8D44665D1F2706FC00158884 /* Info.plist */,
+				8D4466551F2706FC00158884 /* TASK_3_8.xcdatamodeld */,
+				8D44664E1F2706FC00158884 /* AppDelegate.swift */,
+				8D4466981F270BC300158884 /* fmdb */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -160,6 +159,15 @@
 				8D4466B31F270CD300158884 /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D4466B81F27111C00158884 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D4466B51F270CFF00158884 /* Main.storyboard */,
+				8D44665A1F2706FC00158884 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
