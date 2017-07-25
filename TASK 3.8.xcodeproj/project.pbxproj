@@ -12,10 +12,20 @@
 		8D4466571F2706FC00158884 /* TASK_3_8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466551F2706FC00158884 /* TASK_3_8.xcdatamodeld */; };
 		8D4466591F2706FC00158884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466581F2706FC00158884 /* Assets.xcassets */; };
 		8D44665C1F2706FC00158884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D44665A1F2706FC00158884 /* LaunchScreen.storyboard */; };
-		8D4466651F27076C00158884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466631F27076C00158884 /* Main.storyboard */; };
 		8D4466691F2707D200158884 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466681F2707D200158884 /* DetailViewController.swift */; };
 		8D44666B1F2707D900158884 /* RootTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D44666A1F2707D900158884 /* RootTableController.swift */; };
 		8D44666E1F2707EA00158884 /* SQLITE.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D44666D1F2707EA00158884 /* SQLITE.m */; };
+		8D4466A51F270BC300158884 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D44669A1F270BC300158884 /* FMDatabase.m */; };
+		8D4466A61F270BC300158884 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D44669C1F270BC300158884 /* FMDatabaseAdditions.m */; };
+		8D4466A71F270BC300158884 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D44669E1F270BC300158884 /* FMDatabasePool.m */; };
+		8D4466A81F270BC300158884 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466A01F270BC300158884 /* FMDatabaseQueue.m */; };
+		8D4466A91F270BC300158884 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466A31F270BC300158884 /* FMResultSet.m */; };
+		8D4466AA1F270BC300158884 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466A41F270BC300158884 /* Info.plist */; };
+		8D4466AD1F270C7100158884 /* SaveDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466AC1F270C7100158884 /* SaveDataModel.swift */; };
+		8D4466AF1F270C7A00158884 /* ChoreCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466AE1F270C7A00158884 /* ChoreCategory.swift */; };
+		8D4466B11F270CAD00158884 /* ChoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */; };
+		8D4466B41F270CD300158884 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4466B31F270CD300158884 /* libsqlite3.tbd */; };
+		8D4466B71F270CFF00158884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466B51F270CFF00158884 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +36,27 @@
 		8D4466581F2706FC00158884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D44665B1F2706FC00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D44665D1F2706FC00158884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D4466641F27076C00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SQLiteTask-4/SQLiteTask/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		8D4466681F2707D200158884 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../FinalProject CareerFoundry/DetailViewController.swift"; sourceTree = "<group>"; };
 		8D44666A1F2707D900158884 /* RootTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootTableController.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/RootTableController.swift"; sourceTree = "<group>"; };
 		8D44666C1F2707EA00158884 /* TASK 3.8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TASK 3.8-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D44666D1F2707EA00158884 /* SQLITE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLITE.m; sourceTree = "<group>"; };
+		8D4466991F270BC300158884 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8D44669A1F270BC300158884 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8D44669B1F270BC300158884 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8D44669C1F270BC300158884 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8D44669D1F270BC300158884 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8D44669E1F270BC300158884 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8D44669F1F270BC300158884 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8D4466A01F270BC300158884 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8D4466A11F270BC300158884 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8D4466A21F270BC300158884 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8D4466A31F270BC300158884 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8D4466A41F270BC300158884 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4466AC1F270C7100158884 /* SaveDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveDataModel.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/SaveDataModel.swift"; sourceTree = "<group>"; };
+		8D4466AE1F270C7A00158884 /* ChoreCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoreCategory.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/ChoreCategory.swift"; sourceTree = "<group>"; };
+		8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoreTableViewCell.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/ChoreTableViewCell.swift"; sourceTree = "<group>"; };
+		8D4466B31F270CD300158884 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8D4466B61F270CFF00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SQLiteTask-2/SQLiteTask/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4466B41F270CD300158884 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +76,7 @@
 			children = (
 				8D44664D1F2706FC00158884 /* TASK 3.8 */,
 				8D44664C1F2706FC00158884 /* Products */,
+				8D4466B21F270CD300158884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,13 +91,16 @@
 		8D44664D1F2706FC00158884 /* TASK 3.8 */ = {
 			isa = PBXGroup;
 			children = (
+				8D4466AB1F270C5900158884 /* Support */,
 				8D4466671F27078B00158884 /* Controllers */,
 				8D44664E1F2706FC00158884 /* AppDelegate.swift */,
 				8D4466581F2706FC00158884 /* Assets.xcassets */,
 				8D4466661F27077A00158884 /* Storyboard */,
 				8D44665A1F2706FC00158884 /* LaunchScreen.storyboard */,
+				8D4466B51F270CFF00158884 /* Main.storyboard */,
 				8D44665D1F2706FC00158884 /* Info.plist */,
 				8D4466551F2706FC00158884 /* TASK_3_8.xcdatamodeld */,
+				8D4466981F270BC300158884 /* fmdb */,
 			);
 			path = "TASK 3.8";
 			sourceTree = "<group>";
@@ -77,7 +108,6 @@
 		8D4466661F27077A00158884 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				8D4466631F27076C00158884 /* Main.storyboard */,
 				8D44666D1F2707EA00158884 /* SQLITE.m */,
 				8D44666C1F2707EA00158884 /* TASK 3.8-Bridging-Header.h */,
 			);
@@ -92,6 +122,44 @@
 				8D4466681F2707D200158884 /* DetailViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8D4466981F270BC300158884 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				8D4466991F270BC300158884 /* FMDatabase.h */,
+				8D44669A1F270BC300158884 /* FMDatabase.m */,
+				8D44669B1F270BC300158884 /* FMDatabaseAdditions.h */,
+				8D44669C1F270BC300158884 /* FMDatabaseAdditions.m */,
+				8D44669D1F270BC300158884 /* FMDatabasePool.h */,
+				8D44669E1F270BC300158884 /* FMDatabasePool.m */,
+				8D44669F1F270BC300158884 /* FMDatabaseQueue.h */,
+				8D4466A01F270BC300158884 /* FMDatabaseQueue.m */,
+				8D4466A11F270BC300158884 /* FMDB.h */,
+				8D4466A21F270BC300158884 /* FMResultSet.h */,
+				8D4466A31F270BC300158884 /* FMResultSet.m */,
+				8D4466A41F270BC300158884 /* Info.plist */,
+			);
+			name = fmdb;
+			path = "../../../../Downloads/fmdb-master-3/src/fmdb";
+			sourceTree = "<group>";
+		};
+		8D4466AB1F270C5900158884 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8D4466AC1F270C7100158884 /* SaveDataModel.swift */,
+				8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */,
+				8D4466AE1F270C7A00158884 /* ChoreCategory.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		8D4466B21F270CD300158884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D4466B31F270CD300158884 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4466651F27076C00158884 /* Main.storyboard in Resources */,
+				8D4466AA1F270BC300158884 /* Info.plist in Resources */,
 				8D44665C1F2706FC00158884 /* LaunchScreen.storyboard in Resources */,
 				8D4466591F2706FC00158884 /* Assets.xcassets in Resources */,
+				8D4466B71F270CFF00158884 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,12 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4466AF1F270C7A00158884 /* ChoreCategory.swift in Sources */,
 				8D4466571F2706FC00158884 /* TASK_3_8.xcdatamodeld in Sources */,
 				8D4466511F2706FC00158884 /* ViewController.swift in Sources */,
 				8D44666B1F2707D900158884 /* RootTableController.swift in Sources */,
+				8D4466A51F270BC300158884 /* FMDatabase.m in Sources */,
+				8D4466A71F270BC300158884 /* FMDatabasePool.m in Sources */,
+				8D4466A81F270BC300158884 /* FMDatabaseQueue.m in Sources */,
 				8D44664F1F2706FC00158884 /* AppDelegate.swift in Sources */,
 				8D4466691F2707D200158884 /* DetailViewController.swift in Sources */,
+				8D4466AD1F270C7100158884 /* SaveDataModel.swift in Sources */,
+				8D4466A91F270BC300158884 /* FMResultSet.m in Sources */,
 				8D44666E1F2707EA00158884 /* SQLITE.m in Sources */,
+				8D4466A61F270BC300158884 /* FMDatabaseAdditions.m in Sources */,
+				8D4466B11F270CAD00158884 /* ChoreTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,10 +265,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		8D4466631F27076C00158884 /* Main.storyboard */ = {
+		8D4466B51F270CFF00158884 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D4466641F27076C00158884 /* Base */,
+				8D4466B61F270CFF00158884 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
