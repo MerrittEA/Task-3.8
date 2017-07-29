@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8D44664F1F2706FC00158884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D44664E1F2706FC00158884 /* AppDelegate.swift */; };
-		8D4466511F2706FC00158884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466501F2706FC00158884 /* ViewController.swift */; };
 		8D4466571F2706FC00158884 /* TASK_3_8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466551F2706FC00158884 /* TASK_3_8.xcdatamodeld */; };
 		8D4466591F2706FC00158884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466581F2706FC00158884 /* Assets.xcassets */; };
 		8D44665C1F2706FC00158884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D44665A1F2706FC00158884 /* LaunchScreen.storyboard */; };
@@ -26,12 +25,12 @@
 		8D4466B11F270CAD00158884 /* ChoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */; };
 		8D4466B41F270CD300158884 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4466B31F270CD300158884 /* libsqlite3.tbd */; };
 		8D4466B71F270CFF00158884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466B51F270CFF00158884 /* Main.storyboard */; };
+		8D4466DB1F2C3D6300158884 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466DA1F2C3D6300158884 /* DisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D44664B1F2706FC00158884 /* TASK 3.8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TASK 3.8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D44664E1F2706FC00158884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D4466501F2706FC00158884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D4466561F2706FC00158884 /* TASK_3_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TASK_3_8.xcdatamodel; sourceTree = "<group>"; };
 		8D4466581F2706FC00158884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D44665B1F2706FC00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoreTableViewCell.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/ChoreTableViewCell.swift"; sourceTree = "<group>"; };
 		8D4466B31F270CD300158884 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8D4466B61F270CFF00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SQLiteTask-2/SQLiteTask/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		8D4466DA1F2C3D6300158884 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		8D4466671F27078B00158884 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8D4466501F2706FC00158884 /* ViewController.swift */,
+				8D4466DA1F2C3D6300158884 /* DisplayViewController.swift */,
 				8D44666A1F2707D900158884 /* RootTableController.swift */,
 				8D4466681F2707D200158884 /* DetailViewController.swift */,
 			);
@@ -247,7 +247,6 @@
 			files = (
 				8D4466AF1F270C7A00158884 /* ChoreCategory.swift in Sources */,
 				8D4466571F2706FC00158884 /* TASK_3_8.xcdatamodeld in Sources */,
-				8D4466511F2706FC00158884 /* ViewController.swift in Sources */,
 				8D44666B1F2707D900158884 /* RootTableController.swift in Sources */,
 				8D4466A51F270BC300158884 /* FMDatabase.m in Sources */,
 				8D4466A71F270BC300158884 /* FMDatabasePool.m in Sources */,
@@ -255,6 +254,7 @@
 				8D44664F1F2706FC00158884 /* AppDelegate.swift in Sources */,
 				8D4466691F2707D200158884 /* DetailViewController.swift in Sources */,
 				8D4466AD1F270C7100158884 /* SaveDataModel.swift in Sources */,
+				8D4466DB1F2C3D6300158884 /* DisplayViewController.swift in Sources */,
 				8D4466A91F270BC300158884 /* FMResultSet.m in Sources */,
 				8D44666E1F2707EA00158884 /* SQLITE.m in Sources */,
 				8D4466A61F270BC300158884 /* FMDatabaseAdditions.m in Sources */,
