@@ -35,8 +35,8 @@
 		8D4466581F2706FC00158884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D44665B1F2706FC00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D44665D1F2706FC00158884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D4466681F2707D200158884 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../FinalProject CareerFoundry/DetailViewController.swift"; sourceTree = "<group>"; };
-		8D44666A1F2707D900158884 /* RootTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootTableController.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/RootTableController.swift"; sourceTree = "<group>"; };
+		8D4466681F2707D200158884 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8D44666A1F2707D900158884 /* RootTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableController.swift; sourceTree = "<group>"; };
 		8D44666C1F2707EA00158884 /* TASK 3.8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TASK 3.8-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D44666D1F2707EA00158884 /* SQLITE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLITE.m; sourceTree = "<group>"; };
 		8D4466991F270BC300158884 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		8D4466A21F270BC300158884 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		8D4466A31F270BC300158884 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		8D4466A41F270BC300158884 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D4466AC1F270C7100158884 /* SaveDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveDataModel.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/SaveDataModel.swift"; sourceTree = "<group>"; };
-		8D4466AE1F270C7A00158884 /* ChoreCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoreCategory.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/ChoreCategory.swift"; sourceTree = "<group>"; };
-		8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoreTableViewCell.swift; path = "../../FinalProject CareerFoundry/FinalProject CareerFoundry/ChoreTableViewCell.swift"; sourceTree = "<group>"; };
+		8D4466AC1F270C7100158884 /* SaveDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveDataModel.swift; sourceTree = "<group>"; };
+		8D4466AE1F270C7A00158884 /* ChoreCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreCategory.swift; sourceTree = "<group>"; };
+		8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreTableViewCell.swift; sourceTree = "<group>"; };
 		8D4466B31F270CD300158884 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8D4466B61F270CFF00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SQLiteTask-2/SQLiteTask/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		8D4466DA1F2C3D6300158884 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
@@ -429,6 +429,7 @@
 				8D4466621F2706FC00158884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
