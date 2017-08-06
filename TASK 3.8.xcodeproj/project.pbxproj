@@ -24,8 +24,8 @@
 		8D4466AF1F270C7A00158884 /* ChoreCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466AE1F270C7A00158884 /* ChoreCategory.swift */; };
 		8D4466B11F270CAD00158884 /* ChoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */; };
 		8D4466B41F270CD300158884 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4466B31F270CD300158884 /* libsqlite3.tbd */; };
-		8D4466B71F270CFF00158884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4466B51F270CFF00158884 /* Main.storyboard */; };
 		8D4466DB1F2C3D6300158884 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4466DA1F2C3D6300158884 /* DisplayViewController.swift */; };
+		8DD416881F35ABA60010DE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD416871F35ABA60010DE73 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +55,8 @@
 		8D4466AE1F270C7A00158884 /* ChoreCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreCategory.swift; sourceTree = "<group>"; };
 		8D4466B01F270CAD00158884 /* ChoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreTableViewCell.swift; sourceTree = "<group>"; };
 		8D4466B31F270CD300158884 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		8D4466B61F270CFF00158884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/SQLiteTask-2/SQLiteTask/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		8D4466DA1F2C3D6300158884 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		8DD416871F35ABA60010DE73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +134,7 @@
 				8D4466A31F270BC300158884 /* FMResultSet.m */,
 				8D4466A41F270BC300158884 /* Info.plist */,
 			);
-			name = fmdb;
-			path = "../../../../Downloads/fmdb-master-3/src/fmdb";
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 		8D4466AB1F270C5900158884 /* Support */ = {
@@ -164,8 +163,8 @@
 		8D4466B81F27111C00158884 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				8D4466B51F270CFF00158884 /* Main.storyboard */,
 				8D44665A1F2706FC00158884 /* LaunchScreen.storyboard */,
+				8DD416871F35ABA60010DE73 /* Main.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -234,7 +233,7 @@
 				8D4466AA1F270BC300158884 /* Info.plist in Resources */,
 				8D44665C1F2706FC00158884 /* LaunchScreen.storyboard in Resources */,
 				8D4466591F2706FC00158884 /* Assets.xcassets in Resources */,
-				8D4466B71F270CFF00158884 /* Main.storyboard in Resources */,
+				8DD416881F35ABA60010DE73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +270,6 @@
 				8D44665B1F2706FC00158884 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		8D4466B51F270CFF00158884 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D4466B61F270CFF00158884 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
