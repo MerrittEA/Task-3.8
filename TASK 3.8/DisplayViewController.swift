@@ -51,11 +51,11 @@ class DisplayViewController: UIViewController {
         fmdb.open()
         
         
-        let selectSql = "select * from ChoreTable WHERE ID = ?"
-        if let fmdbResult = fmdb.executeQuery(selectSql, withParameterDictionary: nil) {
+            let selectSql = "select * from ChoreTable WHERE ID = :id" //referencing the correct row ID
+            if let fmdbResult = fmdb.executeQuery(selectSql, withParameterDictionary: ["id" : displayChores?.rowID!]) {
             chores.removeAll()
             while (fmdbResult.next()) {
-                let rowID = fmdbResult.int(forColumn: "ID")
+                //let rowID = fmdbResult.int(forColumn: "ID")
                 let choreName =  fmdbResult.string(forColumn: ChoreCategory.PropertyNames.choreNameField) ?? ""
                 let choreReward = fmdbResult.string(forColumn: ChoreCategory.PropertyNames.rewardCountField)
                 let starImage =  UIImage(named: fmdbResult.string(forColumn: ChoreCategory.PropertyNames.starTypeField) ?? "")
